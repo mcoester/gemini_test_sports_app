@@ -11,7 +11,7 @@ const appStyle = {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='https://mcoester.github.io/gemini_test_sports_app/'>
       <div style={appStyle}>
         <Header />
         <main className="py-4">
